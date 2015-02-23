@@ -1,14 +1,8 @@
-var object = {};
-
-beforeEach(function(){
-	object = {};
-	setSomePropertiesOn(object);
-}
-
-function setSomePropertiesOn(num){
+function setSomePropertiesOn(object){
 	object.x = 7;
 	object['y'] = 8;
-	object['onePlus'] = function(num){
+	
+	object.onePlus = function(num){
 	return (num + 1)
-}
+	};
 }
