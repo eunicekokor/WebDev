@@ -1,0 +1,7 @@
+console.log("Node starting...");
+
+var fs = require('fs');
+console.log( fs.readFileSync('./file1.txt') );
+// var fs = require('fs');
+// console.log(fs);
+// console.log(fs.readFileSync('./file1.txt'));
